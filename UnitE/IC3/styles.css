@@ -1,0 +1,67 @@
+﻿/* 
+   Hotel Natoma style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit E, Independent Challenge 3
+ */
+
+/* reset styles */
+article, aside, body, div, footer, header, h1, h2, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body and page container */
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+   border-left: 3px solid black;
+   border-right: 3px solid black;
+   background-color: linen;
+}
+
+/* header section */
+header {
+   border-top: 3px solid black;
+   border-bottom: 3px solid black;
+   padding: 10px;
+   text-align: center;
+   color: white;
+}
+
+/* main content */
+article {
+   width: 60%;
+   margin: 0 auto;
+   padding: 2%;
+   float: left;
+}
+article p {
+   margin: 1em;
+}
+
+/* sidebar */
+aside {
+   width: 32%;
+   padding: 2%;
+   float: right;
+}
+aside h2 {
+   margin-bottom: 0.6em;
+}
+aside p {
+   margin-bottom: 0.4em;
+}
+
+/* footer section */
+footer {
+   border-top: 3px solid black;
+   border-bottom: 3px solid black;
+   padding: 10px;
+   text-align: center;
+   color: white;
+   clear: both;
+}

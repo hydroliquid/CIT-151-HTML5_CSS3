@@ -1,0 +1,31 @@
+/*
+ Lakeland Reeds Bed and Breakfast style sheet
+ Filename: index.html
+
+ Author:   Michael benton
+ Date:     9/15/18
+ HTML5 and CSS3 Illustrated Unit C, Lessons
+*/
+
+body
+	{
+		background-color: ivory;
+		text-align: left;
+	}
+	#contact 
+	{
+		text-align: right;
+	}
+	.accent 
+	S{
+		color: darkcyan;
+	}
+	h1, #contact
+	{
+		background-color: wheat;
+		color: dimgrey;
+	}
+	p
+	{
+		color: red;
+	}

@@ -1,0 +1,35 @@
+/*
+ Hotel Natoma style sheet
+ Filename: sytles.css
+
+ Author:   Michael benton
+ Date:     9/15/18
+ HTML5 and CSS3 Illustrated Unit C, Independent challenge 3
+*/
+
+body
+	h1
+	{
+		background-color: darkgreen;
+		color: white;
+	}
+	h2
+	{
+		color: darkgreen;
+		
+	}
+	p, h2
+	{
+		text-align: center;
+	}
+	#contact
+	{
+		text-align: right;
+	}
+	footer
+	{
+		background-color: darkseagreen;
+		text-align: right;
+	}
+	
+	

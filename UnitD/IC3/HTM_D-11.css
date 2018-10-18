@@ -1,0 +1,34 @@
+﻿/* 
+   Hotel Natoma style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit D, Independent Challenge 3
+ */
+
+/* body and page container */
+.container {
+   background-color: linen;
+}
+
+/* headings */
+header {
+   text-align: center;
+   color: white;
+   background-color: darkgreen;
+}
+
+/* main content */
+article {
+   background-color: white;
+}
+article h2 {
+   text-align: center;
+}
+
+/* footer section */
+footer {
+   background-color: darkseagreen;
+   text-align: center;
+}

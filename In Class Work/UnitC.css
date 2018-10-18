@@ -1,0 +1,147 @@
+/*
+	Stylesheet for <UnitC_2.html>
+	Your name: Michael Benton
+*/
+
+/* =r reset styles
+------------------------------*/
+
+
+/* =ar article
+------------------------------*/
+
+
+/* =as aside 
+------------------------------*/
+
+
+/* =b body
+------------------------------*/
+body {
+	background-color: lightblue;
+	color: maroon;
+	padding: .5em;
+}
+
+/* =c classes
+------------------------------*/
+.bold{
+	font-weight: bold;
+}
+.italics{
+	font-style: italic;
+}
+.superscript{
+	vertical-align: super;
+	color: black;
+	font-size: .75em;
+	font-weight: 900;
+}
+
+/* =d divs
+------------------------------*/
+#lorem, #pirate {
+	background-color: silver;
+	padding: .25em;
+}
+#wikipsum, #bobross { 
+	background-color: ivory;
+	padding: .25em;
+}
+/* =ftr footer 
+------------------------------*/
+footer  {
+	background-color: ivory;
+	padding: 1em;
+	text-align: center;
+}
+
+/* =frm form
+------------------------------*/
+
+
+/* =hd header 
+------------------------------*/
+header{
+	background-color: aqua;
+	text-align: center;
+	padding: 2em;
+}
+
+/* =h headings (h1, h2, etc.)
+------------------------------*/
+h1 {
+	background-color: ivory;
+	display: inline;
+	padding: .5em;
+	border-color: black;
+	border-width: .25em;
+}
+h1, h2{
+	color: navy;
+	text-indent: 1em;
+}
+
+/* =i images 
+------------------------------*/
+
+
+/* =lk links 
+------------------------------*/
+
+
+/* =l lists 
+------------------------------*/
+
+
+/* =m map 
+------------------------------*/
+
+
+/* =n nav (navigation)
+------------------------------*/
+
+
+/* =p paragraphs
+------------------------------*/
+p {
+	text-indent: 1em;
+}
+p.fn { 
+	text-indent: 0;
+}
+.green {
+	color: green;
+}
+p sup {	  
+	color: aqua;
+}
+/* =s section 
+------------------------------*/
+
+
+/* =t tables
+------------------------------*/
+
+
+/* =txt text (abbr, sup, sub,
+					em, strong, small)
+------------------------------*/
+strong {
+	color: green;	 
+}	
+			
+em {				 
+	color: aqua;
+}
+sup {
+	color: orange;
+}
+strong em {
+	color: red;
+} 
+			
+em strong {
+	color: white;
+}
+

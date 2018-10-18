@@ -1,0 +1,92 @@
+/* Author: Michael Benton
+   Style Sheet for: UnitD_begin.html 
+----------------------------------*/ 
+
+/* reset styles 
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+} */
+body {
+	color: navy;
+	background-color: maroon;
+}
+.container {
+	background-color: silver;
+	max-width: 780px;
+	margin: 0 auto;
+	padding: 1.75em;
+}
+p {
+	background-color: pink;
+}
+h1, h2 {
+	background-color: yellow;
+}
+aside p {
+	background-color: wheat;
+}
+footer p {
+	background-color: gold;
+}
+h1, h2 {
+	border-style: dashed;
+	border-width: .1em;
+	border-bottom-color: black;
+	padding-left: 2em;
+}
+p {
+	border-style: dotted;
+	border-width: .1em;
+	padding: .75em;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	padding-left: 2em;
+}
+h1, h2 {
+	padding-left: 30px;
+}
+h1, h2 {
+	margin-left: 3em;
+}
+h1, h2 {
+	margin-left: 50px;
+}
+h1, h2, p {
+	border-color: brown;
+}
+aside {
+	width: 240px;
+	float: right;
+}
+article {
+	width: 500px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+article .articleTop {
+	width: 650px;
+}
+article .articleTop aside {
+	background-color: pink;
+	width: 50px;
+	float: right;
+}
+h1 {
+	margin-bottom: 0px;
+}
+h1 {
+	margin-top: 0px;
+}
+article .articleBot {
+	width: 650px;
+	
+}
+article .articleBot aside {
+	width: 50px;
+	float: right;
+}
+

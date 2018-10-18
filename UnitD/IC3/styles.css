@@ -1,0 +1,67 @@
+﻿/* 
+   Hotel Natoma style sheet 
+   Filename: styles.css
+
+   Author:   Michael Benton
+   Date:     9/30/18
+   HTML5 and CSS3 Illustrated Unit D, Independent Challenge 3
+ */
+ /* reset styles */
+ article, body, div, footer, header, h1, h2, p {
+	border: 0;
+	margin: 0;
+	padding: 0;
+ }
+
+/* body and page container */
+.container {
+	padding-top: 4em;
+	background-color: linen;
+	max-width: 800px;
+	margin: 0 auto;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+/* headings */
+header {
+	position: fixed;
+	max-width: 780px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	background-color: darkgreen;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.logoleft {
+	position: absolute;
+	top: 1em;
+	left: 3em;
+}
+.logoright{
+	position: absolute;
+	top: 1em;
+	right: 3em;
+}
+
+/* main content */
+article {
+	padding: 15px;
+	width: 60%;
+	margin: 0 auto;
+	background-color: white;
+}
+article h2 {
+	text-align: center;
+}
+
+/* footer section */
+footer {
+	padding: 10px;
+	background-color: darkseagreen;
+	text-align: center;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
